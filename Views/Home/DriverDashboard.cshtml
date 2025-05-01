@@ -1,0 +1,31 @@
+﻿<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h1 class="text-center">Hello, Driver @Model.FullName!</h1>
+        <p class="text-center text-muted">Welcome to your dashboard. Let's get you started!</p>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Your Vehicle</h5>
+                    <p>@Model.VehicleModel (@Model.VehicleType)</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Plate Number</h5>
+                    <p>@Model.PlateNumber</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Phone Number</h5>
+                    <p>@Model.PhoneNumber</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="/Driver/UpdateProfile" class="btn btn-outline-primary px-4">Update Profile</a>
+        </div>
+    </div>
+</div>
