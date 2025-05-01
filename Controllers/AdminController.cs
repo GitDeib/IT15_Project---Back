@@ -16,7 +16,7 @@ namespace IT15_Project.Controllers
 
         public IActionResult Index()
         {
-            return View("~/Views/User/Admin/Index.cshtml");
+            return View("~/Views/User/Admin/Admin.cshtml");
         }
 
     }
